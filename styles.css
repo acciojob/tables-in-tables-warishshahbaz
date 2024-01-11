@@ -4,9 +4,11 @@
    table {
         border-collapse: collapse;
       }
-		tr td th {
-			  border:1 px solid;
-		  }
+	td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 .initial_row{
 	width:50%;
 }
