@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+
+   table {
+        border-collapse: collapse;
+      }
+		tr td th {
+			  border:1 px solid;
+		  }
+.initial_row{
+	width:50%;
+}
