@@ -1,14 +1,15 @@
 
 /* Your CSS Code here. */
 
-   table {
-        border-collapse: collapse;
-      }
-	td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-.initial_row{
-	width:50%;
-}
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .black-cell {
+    background-color: black;
+    color: white;
+  }
