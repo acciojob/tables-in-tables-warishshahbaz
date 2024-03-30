@@ -5,92 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
-	 
   </head>
   <body>
-  <table>
-    <tr>
-      <th colspan="2">Main Table</th>
-    </tr>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <th colspan="2">Nested Table 1</th>
-          </tr>
-          <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-          </tr>
-          <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <th colspan="3">Nested Table 2</th>
-          </tr>
-          <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-          </tr>
-          <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td class="black-cell">HTML</td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <ul>
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td >
-       
-		   <table>
-          <tr>
-            <th colspan="2">Nested Table 3</th>
-          </tr>
-          <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-          </tr>
-          <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-          </tr>
-        </table>
-		  
-      </td>
-		  <td >
-       
-		   <table>
-          <tr>
-            <th colspan="2">Nested Table 3</th>
-          </tr>
-          <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-          </tr>
-          <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-          </tr>
-        </table>
-		  
-      </td>
-    </tr>
-  </table>
-</body>
+        <table style="width: 100%; height: 100%" border="1">
+      <!-- Your code here -->
+<tr>
+<!-- row 1 for nested table 2 and nested table 1 -->
+<td>
+<!-- for nested table 2 -->
+<table border = "1" width = 100% ><tr><th colspan="2">Nested Table 2</th></tr>
+<tr><th>Column 1</th>
+<th>Column 2</th></tr>
+<tr><td>abc</td>
+<td>def</td>
+</tr></table>
+</td>
+<!-- from here nested table 1 column starts -->
+<!------------------------------------------------------------------------------------------------>
+<td>
+<!-- for nested table 1 -->
+<table border = "1" width = 100%> <tr><th colspan ="2">Nested Table 1</th></tr>
+<tr><td>
+<ul>
+<li>List item</li>
+<li>List item</li>
+<li>List item</li>
+</ul></td>
+</tr></table>
+</td>
+</tr>
+<!------------------------------------------------------------------------------------------------>
+<tr>
+<!-- row 2 for nested table 3 and nested table 4 -->
+<td>
+<!-- nested table 3-->
+<table border = "1" width = 100%>
+<tr><th colspan = "2">Nested Table 3</th></tr>
+<tr>
+<td><a href = "#">Nested Table </a></td>
+<td>Demo Continued</td>
+</tr>
+</table>
+</td>
+<!------------------------------------------------------------------------------------------------>
+
+<td>
+<!--nested table 4 -->
+<table border = "1" width = 100%><tr><th>Nested Table 4</th></tr>
+<tr><th style ="background-color:black;color:white;">HTML</th></tr></table>
+</td>
+</tr>
+
+    </table>
+</table>
+  </body>
 </html>
